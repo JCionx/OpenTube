@@ -14,24 +14,16 @@
 <br>
 <h3>- Install the python libraries (run the commands in teminal)</h3>
 <p>- Instal python-vlc</p>
-
 pip3 install python-vlc
-
 <br>
 <h4>- Install pafy</h4>
-
 pip3 install pafy
-
 <br>
 <h4>- Install youtube-dl</h4>
-
 pip3 install youtube-dl
-
 <br>
 <h4>- Install urllib</h4>
-
 pip3 install urllib
-
 <br>
 <h3>- Download the OpenTube latest release and fix the error</h3>
 <p>- Execute the python file.</p>
