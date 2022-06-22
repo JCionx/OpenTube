@@ -1,7 +1,7 @@
 <h1>OpenTube - A Lightweight YouTube Client</h1>
 <h2>How to install OpenTube:</h2>
 <h3>- Install VLC 64-Bit</h3>
-    <a href="https://get.videolan.org/vlc/3.0.17.4/win64/vlc-3.0.17.4-win64.exe">Download VLC 64-Bit for Windows</a>
+<a href="https://get.videolan.org/vlc/3.0.17.4/win64/vlc-3.0.17.4-win64.exe">Download VLC 64-Bit for Windows</a>
 <br>
 <a href="https://get.videolan.org/vlc/3.0.17.3/macosx/vlc-3.0.17.3-intel64.dmg">Download VLC 64-Bit for MacOS with Intel Processors</a>
 <br>
