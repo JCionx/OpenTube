@@ -18,12 +18,12 @@
 pip3 install python-vlc
 
 <br>
-<h5>- Install pafy</h5>
+<h4>- Install pafy</h4>
 
 pip3 install pafy
 
 <br>
-<p>- Install youtube-dl</p>
+<h4>- Install youtube-dl</h4>
 
 pip3 install youtube-dl
 
