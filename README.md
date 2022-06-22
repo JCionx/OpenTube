@@ -18,7 +18,7 @@
 pip3 install python-vlc
 
 <br>
-<p>- Install pafy</p>
+<h5>- Install pafy</h5>
 
 pip3 install pafy
 
