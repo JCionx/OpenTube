@@ -1,16 +1,16 @@
 <h1>OpenTube - A Lightweight YouTube Client</h1>
 <h2>How to install OpenTube:</h2>
 <h3>- Install VLC 64-Bit</h3>
-<a href="https://get.videolan.org/vlc/3.0.17.4/win64/vlc-3.0.17.4-win64.exe">    Download VLC 64-Bit for Windows</a>
+    <a href="https://get.videolan.org/vlc/3.0.17.4/win64/vlc-3.0.17.4-win64.exe">Download VLC 64-Bit for Windows</a>
 <br>
-<a href="https://get.videolan.org/vlc/3.0.17.3/macosx/vlc-3.0.17.3-intel64.dmg">    Download VLC 64-Bit for MacOS with Intel Processors</a>
+<a href="https://get.videolan.org/vlc/3.0.17.3/macosx/vlc-3.0.17.3-intel64.dmg">Download VLC 64-Bit for MacOS with Intel Processors</a>
 <br>
-<a href="https://get.videolan.org/vlc/3.0.17.3/macosx/vlc-3.0.17.3-arm64.dmg">    Download VLC 64-Bit for MacOS with Apple Processors</a>
+<a href="https://get.videolan.org/vlc/3.0.17.3/macosx/vlc-3.0.17.3-arm64.dmg">Download VLC 64-Bit for MacOS with Apple Processors</a>
 <br>
 <h3>- Install Python</h3>
-<a href="https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe">    Download Python 64-Bit for Windows</a>
+<a href="https://www.python.org/ftp/python/3.10.5/python-3.10.5-amd64.exe">Download Python 64-Bit for Windows</a>
 <br>
-<a href="https://www.python.org/ftp/python/3.10.5/python-3.10.5-macos11.pkg">    Download Python 64-Bit for MacOS</a>
+<a href="https://www.python.org/ftp/python/3.10.5/python-3.10.5-macos11.pkg">Download Python 64-Bit for MacOS</a>
 <br>
 <h3>- Install the python libraries (run the commands in teminal)</h3>
 <h4>- Instal python-vlc</h4>
