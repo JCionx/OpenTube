@@ -13,7 +13,7 @@
 <a href="https://www.python.org/ftp/python/3.10.5/python-3.10.5-macos11.pkg">Download Python 64-Bit for MacOS</a>
 <br>
 <h3>- Install the python libraries (run the commands in teminal)</h3>
-<p>- Instal python-vlc</p>
+<h4>- Instal python-vlc</h4>
 pip3 install python-vlc
 <br>
 <h4>- Install pafy</h4>
