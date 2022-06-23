@@ -35,23 +35,41 @@ user = user.replace(":", "%3A")
 user = user.replace(" ", "+")
 
 html = urllib.request.urlopen(f"https://youtube.com/results?search_query={user}")
+
 video_ids = re.findall(r"watch\?v=(\S{11})", html.read().decode())
-url = f"https://www.youtube.com/watch?v={video_ids[0]}"
+video_urls = [f"https://www.youtube.com/watch?v={video_ids[0]}", f"https://www.youtube.com/watch?v={video_ids[1]}", f"https://www.youtube.com/watch?v={video_ids[2]}"]
+videos = [pafy.new(video_urls[0]), pafy.new(video_urls[1]), pafy.new(video_urls[2])]
+
+print(f"Search results for '{user}':\n[1] {videos[0].title}\n[2] {videos[1].title}\n[3] {videos[2].title}")
+
+while True:
+    sel_video = int(input("Type the number of the video: "))
+    if sel_video == 1:
+        url = video_urls[0]
+        break
+    elif sel_video == 2:
+        url = video_urls[1]
+        break
+    elif sel_video == 3:
+        url = video_urls[2]
+        break
+    else:
+        print("Wrong Syntax!")
 
 video = pafy.new(url)
 
 best = video.getbest()
-
-print(video_ids)
 
 ins = vlc.Instance()
 player = ins.media_player_new()
 
 code = urllib.request.urlopen(url).getcode()
 if str(code).startswith('2') or str(code).startswith('3'):
-    print('Stream is working')
+    print('Stream is working fine.')
 else:
-    print('Stream is dead')
+    print('Stream is NOT working. Please try again.')
+
+print(best.url)
 
 Media = ins.media_new(best.url)
 Media.get_mrl()
@@ -60,9 +78,7 @@ player.play()
 
 good_states = ["State.Playing", "State.NothingSpecial", "State.Opening"]
 
-pause_state = 1
-
 while str(player.get_state()) in good_states:
-    print(f"Stream is working. Current state = {player.get_state}")
-
+    nothing = 0
+    
 player.stop()
