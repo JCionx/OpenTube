@@ -69,8 +69,6 @@ if str(code).startswith('2') or str(code).startswith('3'):
 else:
     print('Stream is NOT working. Please try again.')
 
-print(best.url)
-
 Media = ins.media_new(best.url)
 Media.get_mrl()
 player.set_media(Media)
