@@ -11,7 +11,6 @@ import tkinter as tk
 import urllib.request
 import re
 import pafy
-from pyparsing import anyCloseTag
 import vlc
 import base64
 
