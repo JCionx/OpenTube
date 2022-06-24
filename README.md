@@ -26,7 +26,7 @@ pip3 install youtube-dl
 pip3 install urllib
 <br>
 <h4>- Install tkinter</h4>
-pip3 install tkinter
+pip3 install tk
 <br>
 <h3>- Download the OpenTube latest release and fix the error</h3>
 <p>- Execute the python file.</p>
