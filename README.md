@@ -25,6 +25,9 @@ pip3 install youtube-dl
 <h4>- Install urllib</h4>
 pip3 install urllib
 <br>
+<h4>- Install tkinter</h4>
+pip3 install tkinter
+<br>
 <h3>- Download the OpenTube latest release and fix the error</h3>
 <p>- Execute the python file.</p>
 <p>- Open the path that appears in the error. That path should end in "backend_youtube_dl.py".</p>
