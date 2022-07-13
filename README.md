@@ -35,4 +35,4 @@ pip3 install tk
 <p>- Save the file.</p>
 <br>
 <h3>Thats it! Run the python file, search any video, and wait for it to play!</h3>
-<p>This project is just in beta, so don't expect anyting awesome.</p>
+<p>This project is just in beta, so don't expect anything awesome.</p>
