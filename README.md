@@ -1,4 +1,8 @@
 <h1>OpenTube - A Lightweight YouTube Client</h1>
+
+> [!IMPORTANT]
+> This is a legacy project from my early days of learning to code. It is unmaintained and kept here strictly for sentimental/historical purposes.
+
 <h2>How to install OpenTube:</h2>
 <h3>- Install VLC 64-Bit</h3>
 <a href="https://get.videolan.org/vlc/3.0.17.4/win64/vlc-3.0.17.4-win64.exe">Download VLC 64-Bit for Windows</a>
